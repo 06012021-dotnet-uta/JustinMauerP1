@@ -1,0 +1,305 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\justi\\Desktop\\06012021_BashFiles\\JustinMauerP1\\JustinMauerP1\\AutoPartsStore\\AutoPartsStore\\AutoPartsStore.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\justi\\Desktop\\06012021_BashFiles\\JustinMauerP1\\JustinMauerP1\\AutoPartsStore\\AutoPartsStore\\AutoPartsStore.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\justi\\Desktop\\06012021_BashFiles\\JustinMauerP1\\JustinMauerP1\\AutoPartsStore\\AutoPartsStore\\AutoPartsStore.csproj",
+        "projectName": "AutoPartsStore",
+        "projectPath": "C:\\Users\\justi\\Desktop\\06012021_BashFiles\\JustinMauerP1\\JustinMauerP1\\AutoPartsStore\\AutoPartsStore\\AutoPartsStore.csproj",
+        "packagesPath": "C:\\Users\\justi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\justi\\Desktop\\06012021_BashFiles\\JustinMauerP1\\JustinMauerP1\\AutoPartsStore\\AutoPartsStore\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\justi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.org": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\justi\\Desktop\\06012021_BashFiles\\JustinMauerP1\\JustinMauerP1\\AutoPartsStore\\BusinessLayer\\BusinessLayer.csproj": {
+                "projectPath": "C:\\Users\\justi\\Desktop\\06012021_BashFiles\\JustinMauerP1\\JustinMauerP1\\AutoPartsStore\\BusinessLayer\\BusinessLayer.csproj"
+              },
+              "C:\\Users\\justi\\Desktop\\06012021_BashFiles\\JustinMauerP1\\JustinMauerP1\\AutoPartsStore\\ModelsLibrary\\ModelsLibrary.csproj": {
+                "projectPath": "C:\\Users\\justi\\Desktop\\06012021_BashFiles\\JustinMauerP1\\JustinMauerP1\\AutoPartsStore\\ModelsLibrary\\ModelsLibrary.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.7, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\justi\\Desktop\\06012021_BashFiles\\JustinMauerP1\\JustinMauerP1\\AutoPartsStore\\BusinessLayer\\BusinessLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\justi\\Desktop\\06012021_BashFiles\\JustinMauerP1\\JustinMauerP1\\AutoPartsStore\\BusinessLayer\\BusinessLayer.csproj",
+        "projectName": "BusinessLayer",
+        "projectPath": "C:\\Users\\justi\\Desktop\\06012021_BashFiles\\JustinMauerP1\\JustinMauerP1\\AutoPartsStore\\BusinessLayer\\BusinessLayer.csproj",
+        "packagesPath": "C:\\Users\\justi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\justi\\Desktop\\06012021_BashFiles\\JustinMauerP1\\JustinMauerP1\\AutoPartsStore\\BusinessLayer\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\justi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.org": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\justi\\Desktop\\06012021_BashFiles\\JustinMauerP1\\JustinMauerP1\\AutoPartsStore\\ModelsLibrary\\ModelsLibrary.csproj": {
+                "projectPath": "C:\\Users\\justi\\Desktop\\06012021_BashFiles\\JustinMauerP1\\JustinMauerP1\\AutoPartsStore\\ModelsLibrary\\ModelsLibrary.csproj"
+              },
+              "C:\\Users\\justi\\Desktop\\06012021_BashFiles\\JustinMauerP1\\JustinMauerP1\\AutoPartsStore\\RepositoryLayer\\RepositoryLayer.csproj": {
+                "projectPath": "C:\\Users\\justi\\Desktop\\06012021_BashFiles\\JustinMauerP1\\JustinMauerP1\\AutoPartsStore\\RepositoryLayer\\RepositoryLayer.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\justi\\Desktop\\06012021_BashFiles\\JustinMauerP1\\JustinMauerP1\\AutoPartsStore\\ModelsLibrary\\ModelsLibrary.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\justi\\Desktop\\06012021_BashFiles\\JustinMauerP1\\JustinMauerP1\\AutoPartsStore\\ModelsLibrary\\ModelsLibrary.csproj",
+        "projectName": "ModelsLibrary",
+        "projectPath": "C:\\Users\\justi\\Desktop\\06012021_BashFiles\\JustinMauerP1\\JustinMauerP1\\AutoPartsStore\\ModelsLibrary\\ModelsLibrary.csproj",
+        "packagesPath": "C:\\Users\\justi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\justi\\Desktop\\06012021_BashFiles\\JustinMauerP1\\JustinMauerP1\\AutoPartsStore\\ModelsLibrary\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\justi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.org": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\justi\\Desktop\\06012021_BashFiles\\JustinMauerP1\\JustinMauerP1\\AutoPartsStore\\RepositoryLayer\\RepositoryLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\justi\\Desktop\\06012021_BashFiles\\JustinMauerP1\\JustinMauerP1\\AutoPartsStore\\RepositoryLayer\\RepositoryLayer.csproj",
+        "projectName": "RepositoryLayer",
+        "projectPath": "C:\\Users\\justi\\Desktop\\06012021_BashFiles\\JustinMauerP1\\JustinMauerP1\\AutoPartsStore\\RepositoryLayer\\RepositoryLayer.csproj",
+        "packagesPath": "C:\\Users\\justi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\justi\\Desktop\\06012021_BashFiles\\JustinMauerP1\\JustinMauerP1\\AutoPartsStore\\RepositoryLayer\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\justi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.org": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\justi\\Desktop\\06012021_BashFiles\\JustinMauerP1\\JustinMauerP1\\AutoPartsStore\\ModelsLibrary\\ModelsLibrary.csproj": {
+                "projectPath": "C:\\Users\\justi\\Desktop\\06012021_BashFiles\\JustinMauerP1\\JustinMauerP1\\AutoPartsStore\\ModelsLibrary\\ModelsLibrary.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "VuOXhXGSvbcN2k3wa4EBaLKjvSdBpe2vXJFoL3u+V+Gar41fkg2/NhdS93xMDAj005JWtIzoCcsQHHDqZ6t6gg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\justi\\Desktop\\06012021_BashFiles\\JustinMauerP1\\JustinMauerP1\\AutoPartsStore\\ModelsLibrary\\ModelsLibrary.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\justi\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\5.0.7\\microsoft.entityframeworkcore.abstractions.5.0.7.nupkg.sha512"
+  ],
+  "logs": []
+}

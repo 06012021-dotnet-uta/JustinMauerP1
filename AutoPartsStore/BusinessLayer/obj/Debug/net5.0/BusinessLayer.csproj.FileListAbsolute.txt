@@ -1,0 +1,17 @@
+C:\Users\justi\Desktop\06012021_BashFiles\JustinMauerP1\JustinMauerP1\AutoPartsStore\BusinessLayer\obj\Debug\net5.0\BusinessLayer.csproj.AssemblyReference.cache
+C:\Users\justi\Desktop\06012021_BashFiles\JustinMauerP1\JustinMauerP1\AutoPartsStore\BusinessLayer\obj\Debug\net5.0\BusinessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\justi\Desktop\06012021_BashFiles\JustinMauerP1\JustinMauerP1\AutoPartsStore\BusinessLayer\obj\Debug\net5.0\BusinessLayer.AssemblyInfoInputs.cache
+C:\Users\justi\Desktop\06012021_BashFiles\JustinMauerP1\JustinMauerP1\AutoPartsStore\BusinessLayer\obj\Debug\net5.0\BusinessLayer.AssemblyInfo.cs
+C:\Users\justi\Desktop\06012021_BashFiles\JustinMauerP1\JustinMauerP1\AutoPartsStore\BusinessLayer\obj\Debug\net5.0\BusinessLayer.csproj.CoreCompileInputs.cache
+C:\Users\justi\Desktop\06012021_BashFiles\JustinMauerP1\JustinMauerP1\AutoPartsStore\BusinessLayer\bin\Debug\net5.0\BusinessLayer.deps.json
+C:\Users\justi\Desktop\06012021_BashFiles\JustinMauerP1\JustinMauerP1\AutoPartsStore\BusinessLayer\bin\Debug\net5.0\BusinessLayer.dll
+C:\Users\justi\Desktop\06012021_BashFiles\JustinMauerP1\JustinMauerP1\AutoPartsStore\BusinessLayer\bin\Debug\net5.0\ref\BusinessLayer.dll
+C:\Users\justi\Desktop\06012021_BashFiles\JustinMauerP1\JustinMauerP1\AutoPartsStore\BusinessLayer\bin\Debug\net5.0\BusinessLayer.pdb
+C:\Users\justi\Desktop\06012021_BashFiles\JustinMauerP1\JustinMauerP1\AutoPartsStore\BusinessLayer\bin\Debug\net5.0\ModelsLibrary.dll
+C:\Users\justi\Desktop\06012021_BashFiles\JustinMauerP1\JustinMauerP1\AutoPartsStore\BusinessLayer\bin\Debug\net5.0\RepositoryLayer.dll
+C:\Users\justi\Desktop\06012021_BashFiles\JustinMauerP1\JustinMauerP1\AutoPartsStore\BusinessLayer\bin\Debug\net5.0\ModelsLibrary.pdb
+C:\Users\justi\Desktop\06012021_BashFiles\JustinMauerP1\JustinMauerP1\AutoPartsStore\BusinessLayer\bin\Debug\net5.0\RepositoryLayer.pdb
+C:\Users\justi\Desktop\06012021_BashFiles\JustinMauerP1\JustinMauerP1\AutoPartsStore\BusinessLayer\obj\Debug\net5.0\BusinessLayer.csproj.CopyComplete
+C:\Users\justi\Desktop\06012021_BashFiles\JustinMauerP1\JustinMauerP1\AutoPartsStore\BusinessLayer\obj\Debug\net5.0\BusinessLayer.dll
+C:\Users\justi\Desktop\06012021_BashFiles\JustinMauerP1\JustinMauerP1\AutoPartsStore\BusinessLayer\obj\Debug\net5.0\ref\BusinessLayer.dll
+C:\Users\justi\Desktop\06012021_BashFiles\JustinMauerP1\JustinMauerP1\AutoPartsStore\BusinessLayer\obj\Debug\net5.0\BusinessLayer.pdb

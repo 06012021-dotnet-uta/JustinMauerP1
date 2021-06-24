@@ -1,0 +1,12 @@
+C:\Users\justi\Desktop\06012021_BashFiles\JustinMauerP1\JustinMauerP1\AutoPartsStore\ModelsLibrary\bin\Debug\net5.0\ModelsLibrary.deps.json
+C:\Users\justi\Desktop\06012021_BashFiles\JustinMauerP1\JustinMauerP1\AutoPartsStore\ModelsLibrary\bin\Debug\net5.0\ModelsLibrary.dll
+C:\Users\justi\Desktop\06012021_BashFiles\JustinMauerP1\JustinMauerP1\AutoPartsStore\ModelsLibrary\bin\Debug\net5.0\ref\ModelsLibrary.dll
+C:\Users\justi\Desktop\06012021_BashFiles\JustinMauerP1\JustinMauerP1\AutoPartsStore\ModelsLibrary\bin\Debug\net5.0\ModelsLibrary.pdb
+C:\Users\justi\Desktop\06012021_BashFiles\JustinMauerP1\JustinMauerP1\AutoPartsStore\ModelsLibrary\obj\Debug\net5.0\ModelsLibrary.csproj.AssemblyReference.cache
+C:\Users\justi\Desktop\06012021_BashFiles\JustinMauerP1\JustinMauerP1\AutoPartsStore\ModelsLibrary\obj\Debug\net5.0\ModelsLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\justi\Desktop\06012021_BashFiles\JustinMauerP1\JustinMauerP1\AutoPartsStore\ModelsLibrary\obj\Debug\net5.0\ModelsLibrary.AssemblyInfoInputs.cache
+C:\Users\justi\Desktop\06012021_BashFiles\JustinMauerP1\JustinMauerP1\AutoPartsStore\ModelsLibrary\obj\Debug\net5.0\ModelsLibrary.AssemblyInfo.cs
+C:\Users\justi\Desktop\06012021_BashFiles\JustinMauerP1\JustinMauerP1\AutoPartsStore\ModelsLibrary\obj\Debug\net5.0\ModelsLibrary.csproj.CoreCompileInputs.cache
+C:\Users\justi\Desktop\06012021_BashFiles\JustinMauerP1\JustinMauerP1\AutoPartsStore\ModelsLibrary\obj\Debug\net5.0\ModelsLibrary.dll
+C:\Users\justi\Desktop\06012021_BashFiles\JustinMauerP1\JustinMauerP1\AutoPartsStore\ModelsLibrary\obj\Debug\net5.0\ref\ModelsLibrary.dll
+C:\Users\justi\Desktop\06012021_BashFiles\JustinMauerP1\JustinMauerP1\AutoPartsStore\ModelsLibrary\obj\Debug\net5.0\ModelsLibrary.pdb
