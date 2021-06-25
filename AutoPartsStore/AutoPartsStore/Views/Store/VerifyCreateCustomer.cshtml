@@ -1,73 +1,91 @@
-﻿@model AutoPartsStore.Models.Customer
+﻿@model ModelsLibrary.Customer
 
 @{
     ViewData["Title"] = "VerifyCreateCustomer";
 }
 
-<h1>Verify Create Customer</h1>
-
+@*<h1>VerifyCreateCustomer</h1>
+*@
 <div>
-    <h4>Customer</h4>
+    <h4>Verify New Customer Information</h4>
     <hr />
     <dl class="row">
-        <dt class="col-sm-2">
+        @*<dt class = "col-sm-2">
             @Html.DisplayNameFor(model => model.CustomerId)
         </dt>
-        <dd class="col-sm-10">
+        <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.CustomerId)
-        </dd>
+        </dd>*@
         <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.firstName)
+            @Html.DisplayNameFor(model => model.FirstName)
         </dt>
         <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.firstName)
+            @Html.DisplayFor(model => model.FirstName)
         </dd>
         <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.lastName)
+            @Html.DisplayNameFor(model => model.LastName)
         </dt>
         <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.lastName)
+            @Html.DisplayFor(model => model.LastName)
         </dd>
         <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.phoneNumber)
+            @Html.DisplayNameFor(model => model.PhoneNumber)
         </dt>
         <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.phoneNumber)
+            @Html.DisplayFor(model => model.PhoneNumber)
         </dd>
         <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.email)
+            @Html.DisplayNameFor(model => model.Email)
         </dt>
         <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.email)
+            @Html.DisplayFor(model => model.Email)
         </dd>
         <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.city)
+            @Html.DisplayNameFor(model => model.CarYear)
         </dt>
         <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.city)
+            @Html.DisplayFor(model => model.CarYear)
         </dd>
         <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.state)
+            @Html.DisplayNameFor(model => model.CarMake)
         </dt>
         <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.state)
+            @Html.DisplayFor(model => model.CarMake)
         </dd>
-
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.CarModel)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.CarModel)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.City)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.City)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.State)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.State)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Password)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Password)
+        </dd>
         <dt class="col-sm-2">
             @Html.DisplayNameFor(model => model.Store)
         </dt>
         <dd class="col-sm-10">
             @Html.DisplayFor(model => model.Store)
-
-        <dt class="col-sm-2">
-            @Html.DisplayNameFor(model => model.password)
-        </dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.password)
         </dd>
+
     </dl>
 </div>
 <div>
-    @Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ }) |
+    @Html.ActionLink("Submit New Customer", "CreateNewCustomer", Model) |
     <a asp-action="Index">Back to List</a>
 </div>

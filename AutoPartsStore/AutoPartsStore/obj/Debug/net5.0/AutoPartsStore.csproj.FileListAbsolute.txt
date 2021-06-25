@@ -348,8 +348,6 @@ C:\Users\justi\Desktop\06012021_BashFiles\JustinMauerP1\JustinMauerP1\AutoPartsS
 C:\Users\justi\Desktop\06012021_BashFiles\JustinMauerP1\JustinMauerP1\AutoPartsStore\AutoPartsStore\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
 C:\Users\justi\Desktop\06012021_BashFiles\JustinMauerP1\JustinMauerP1\AutoPartsStore\AutoPartsStore\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
 C:\Users\justi\Desktop\06012021_BashFiles\JustinMauerP1\JustinMauerP1\AutoPartsStore\AutoPartsStore\obj\Debug\net5.0\Razor\Views\Store\Index.cshtml.g.cs
-C:\Users\justi\Desktop\06012021_BashFiles\JustinMauerP1\JustinMauerP1\AutoPartsStore\AutoPartsStore\obj\Debug\net5.0\Razor\Views\Store\VerifyCreateCustomer.cshtml.g.cs
-C:\Users\justi\Desktop\06012021_BashFiles\JustinMauerP1\JustinMauerP1\AutoPartsStore\AutoPartsStore\obj\Debug\net5.0\Razor\Views\Store\VerifyCreatePlayer.cshtml.g.cs
 C:\Users\justi\Desktop\06012021_BashFiles\JustinMauerP1\JustinMauerP1\AutoPartsStore\AutoPartsStore\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
 C:\Users\justi\Desktop\06012021_BashFiles\JustinMauerP1\JustinMauerP1\AutoPartsStore\AutoPartsStore\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
 C:\Users\justi\Desktop\06012021_BashFiles\JustinMauerP1\JustinMauerP1\AutoPartsStore\AutoPartsStore\obj\Debug\net5.0\AutoPartsStore.RazorTargetAssemblyInfo.cache
@@ -397,3 +395,6 @@ C:\Users\justi\Desktop\06012021_BashFiles\JustinMauerP1\JustinMauerP1\AutoPartsS
 C:\Users\justi\Desktop\06012021_BashFiles\JustinMauerP1\JustinMauerP1\AutoPartsStore\AutoPartsStore\bin\Debug\net5.0\RepositoryLayer.pdb
 C:\Users\justi\Desktop\06012021_BashFiles\JustinMauerP1\JustinMauerP1\AutoPartsStore\AutoPartsStore\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
 C:\Users\justi\Desktop\06012021_BashFiles\JustinMauerP1\JustinMauerP1\AutoPartsStore\AutoPartsStore\obj\Debug\net5.0\Razor\Views\Store\CreateCustomer.cshtml.g.cs
+C:\Users\justi\Desktop\06012021_BashFiles\JustinMauerP1\JustinMauerP1\AutoPartsStore\AutoPartsStore\obj\Debug\net5.0\Razor\Views\Store\VerifyCreateCustomer.cshtml.g.cs
+C:\Users\justi\Desktop\06012021_BashFiles\JustinMauerP1\JustinMauerP1\AutoPartsStore\AutoPartsStore\obj\Debug\net5.0\Razor\Views\Store\LoggedInLandingPage.cshtml.g.cs
+C:\Users\justi\Desktop\06012021_BashFiles\JustinMauerP1\JustinMauerP1\AutoPartsStore\AutoPartsStore\obj\Debug\net5.0\Razor\Views\Store\CustomerList.cshtml.g.cs

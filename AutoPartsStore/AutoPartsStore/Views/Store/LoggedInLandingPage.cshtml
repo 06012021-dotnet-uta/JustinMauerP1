@@ -1,0 +1,15 @@
+﻿
+@{
+    ViewData["Title"] = "LoggedInLandingPage";
+}
+
+@ViewData["Title"]
+
+@ViewData["Welcome"]
+
+@*buttons to view item list*@
+<div>
+    <button class="btn-outline-primary"><a class="btn" asp-area="" asp-controller="Store" asp-action="Create"></a>Create an account</button>
+    <button class="btn-outline-secondary"><a class="btn" asp-area="" asp-controller="Store" asp-action="CustomerList">Login</a></button>
+
+</div>

@@ -8,6 +8,9 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using RepositoryLayer;
+using Microsoft.EntityFrameworkCore;
+using BusinessLayer;
 
 namespace AutoPartsStore
 {
@@ -24,6 +27,14 @@ namespace AutoPartsStore
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
+            services.AddDbContext<AppStoreDb>(options =>
+            {
+                if (!options.IsConfigured)
+                {
+                    options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"));
+                }
+            });
+            services.AddScoped<IApp, App>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

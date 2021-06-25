@@ -8,7 +8,7 @@ using ModelsLibrary;
 
 namespace RepositoryLayer
 {
-    class AppStoreDb : DbContext
+    public class AppStoreDb : DbContext
     {
         public DbSet<Item> Items { get; set; }
         public DbSet<Customer> Customers { get; set; }
@@ -29,10 +29,10 @@ namespace RepositoryLayer
         protected override void OnConfiguring(DbContextOptionsBuilder options)
         {
             // check if the options have already been configured
-            if(!options.IsConfigured)
+           /* if(!options.IsConfigured)
             {
                 options.UseSqlServer("Server=localhost\\SQLEXPRESS;Database=AppStoreDb;Trusted_Connection=True;");
-            }
+            }*/
         }
 
         // override OnConfiguring()

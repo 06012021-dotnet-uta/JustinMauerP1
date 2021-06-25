@@ -21,8 +21,9 @@ namespace ModelsLibrary
     
         private string _firstName;
 
-        [Required]
+        [Required(ErrorMessage = "First name is required")]
         [MaxLength(30)]
+        [Display(Name ="First Name")]
         public string FirstName
         {
             get
@@ -37,8 +38,9 @@ namespace ModelsLibrary
 
         private string _lastName;
 
-        [Required]
+        [Required(ErrorMessage = "Last name is required")]
         [MaxLength(30)]
+        [Display(Name = "Last Name")]
         public string LastName
         {
             get
@@ -54,7 +56,7 @@ namespace ModelsLibrary
 
         private string _phoneNumber;
         
-        
+        [Display(Name ="Phone")]
         public string PhoneNumber
         {
             get
@@ -70,6 +72,7 @@ namespace ModelsLibrary
 
         private string _email;
         
+        [Display(Name ="Email")]
         public string Email
         { 
             get
@@ -85,6 +88,7 @@ namespace ModelsLibrary
         }
         public string _city;
         
+        [Display(Name ="City")]
         public string City
         { 
             get
@@ -100,6 +104,7 @@ namespace ModelsLibrary
         }
         private string _state;
         
+        [Display(Name ="State")]
         public string State
         { 
             get
@@ -115,6 +120,8 @@ namespace ModelsLibrary
         }
         private string _password;
         
+        [Required(ErrorMessage = "Password is required")]
+        [Display(Name = "Password")]
         public string Password
         { 
             get
@@ -130,6 +137,8 @@ namespace ModelsLibrary
         }
 
         public int _store;
+
+        [Display(Name ="Store")]
         public int Store
         { 
             get
@@ -145,9 +154,11 @@ namespace ModelsLibrary
         }
 
         private int carYear;
-        [Required]
-        [MaxLength(4)]
-        [Range(1980,2021)]
+        /*[MaxLength(4)]
+        [Range(1980,2021)]*/
+
+        [Required(ErrorMessage = "Year is required")]
+        [Display(Name ="Year")]
         public int CarYear
         {
             get { return carYear; }
@@ -156,7 +167,8 @@ namespace ModelsLibrary
 
         private string carMake;
 
-        [Required]
+        [Required(ErrorMessage = "Make is required")]
+        [Display(Name ="Make")]
         public string CarMake
         {
             get { return carMake; }
@@ -165,13 +177,35 @@ namespace ModelsLibrary
 
         private string carModel;
 
-        [Required]
+        [Required(ErrorMessage = "Model is required")]
+        [Display(Name ="Model")]
         public string CarModel
         {
             get { return carModel; }
             set { carModel = value; }
         }
-            
 
+        public Customer()
+        {
+
+        }
+
+        public Customer(string firstName, string lastName,
+                        string phoneNumber, string email, string city,
+                        string state, string password, int store,
+                        int carYear, string carMake, string carModel)
+        {
+            _firstName = firstName;
+            _lastName = lastName;
+            _phoneNumber = phoneNumber;
+            _email = email;
+            _city = city;
+            _state = state;
+            _password = password;
+            _store = store;
+            this.carYear = carYear;
+            this.carMake = carMake;
+            this.carModel = carModel;
+        }
     }
 }
