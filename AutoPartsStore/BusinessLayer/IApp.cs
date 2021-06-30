@@ -15,6 +15,7 @@ namespace BusinessLayer
         Task<List<Store>> StoreListAsync();
         Task<List<Item>> ItemListAsync(Store store);
         Task<bool> ChangeStore(Store store, Customer cust);
+        Task<List<Item>> StoreItemListAsync(int store);
 
 
     }

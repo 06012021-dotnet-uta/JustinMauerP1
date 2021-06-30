@@ -69,7 +69,7 @@ namespace AutoPartsStore.Controllers
             if(register)
             {
                 ViewBag.Welcome = "Welcoming Example With ViewBag";
-                return View("Index");
+                return View("VerifyCreateCustomer", c);
             }
             else
             {
@@ -100,7 +100,7 @@ namespace AutoPartsStore.Controllers
             return View();
         }*/
 
-        [HttpPost]
+/*        [HttpPost]
         public async Task<ActionResult> Select(int store)
         {
 
@@ -122,7 +122,7 @@ namespace AutoPartsStore.Controllers
 
             return View();
         }
-
+*/
         // POST: Store/Create
         [HttpPost]
         [ValidateAntiForgeryToken]

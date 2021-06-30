@@ -1,5 +1,7 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using BusinessLayer;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using ModelsLibrary;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,10 +11,36 @@ namespace AutoPartsStore.Controllers
 {
     public class Item : Controller
     {
-        // GET: Item
-        public ActionResult Index()
+
+        private readonly IApp _appStore;
+
+        // create a constructor that will inject the business layer
+        public Item(IApp appStore)
         {
-            return View("StoreList");
+            this._appStore = appStore;
+        }
+
+        // GET: Item
+        public async Task<ActionResult> Index()
+        {
+            List<Store> storeList = await _appStore.StoreListAsync();
+            
+            return View("StoreList", storeList);
+        }
+
+        
+        public async Task<ActionResult> StoreInv(int storeId)
+        {
+            List<ModelsLibrary.Item> itemList = await _appStore.StoreItemListAsync(storeId);
+
+            return View("ItemList", itemList);
+        }
+
+        public async Task<ActionResult> StoreInventory(Store store)
+        {
+            List<ModelsLibrary.Item> itemList = await _appStore.StoreItemListAsync(store.StoreId);
+
+            return View("ItemList", itemList);
         }
 
         // GET: Item/Details/5

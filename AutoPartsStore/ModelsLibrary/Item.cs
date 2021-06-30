@@ -56,6 +56,15 @@ namespace ModelsLibrary
             set { price = value; }
         }
 
+        private int quantity;
+
+        public int Quantity
+        {
+            get { return quantity; }
+            set { quantity = value; }
+        }
+
+
         private string location;
 
         public string Location

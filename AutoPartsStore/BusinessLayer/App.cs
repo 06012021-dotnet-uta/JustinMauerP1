@@ -138,6 +138,20 @@ namespace BusinessLayer
             return storeItems;
         }
 
+        public async Task<List<Item>> StoreItemListAsync(int store)
+        {
+            List<Item> itemList = null;
+            try
+            {
+                itemList = _context.Items.Where(x => x.Store == store).ToList();
+            }
+            catch(Exception ex)
+            {
+
+            }
+            return itemList;
+        }
+
         public async Task<bool> ChangeStore(Store store, Customer cust)
         {
             bool changed = false;
