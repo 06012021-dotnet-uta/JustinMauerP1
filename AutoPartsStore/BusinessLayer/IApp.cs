@@ -11,5 +11,11 @@ namespace BusinessLayer
     {
         Task<bool> RegisterCustomerAsync(Customer c);
         Task<List<Customer>> CustomerListAsync();
+        Task<Customer> FindCustomerAsync(string lastName, string password);
+        Task<List<Store>> StoreListAsync();
+        Task<List<Item>> ItemListAsync(Store store);
+        Task<bool> ChangeStore(Store store, Customer cust);
+
+
     }
 }

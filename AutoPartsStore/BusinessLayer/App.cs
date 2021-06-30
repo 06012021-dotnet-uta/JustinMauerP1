@@ -56,7 +56,10 @@ namespace BusinessLayer
             return true;
 
         }
-
+        /// <summary>
+        /// Returns a list of all customers in the Database.
+        /// </summary>
+        /// <returns></returns>
         public async Task<List<Customer>> CustomerListAsync()
         {
             List<Customer> custList = null;
@@ -77,5 +80,82 @@ namespace BusinessLayer
             return custList;
         }
 
+        /// <summary>
+        /// Returns a list of all the stores
+        /// </summary>
+        /// <returns></returns>
+        public async Task<List<Store>> StoreListAsync()
+        {
+            List<Store> storeList = null;
+
+            try
+            {
+                storeList = _context.Stores.ToList();
+            }
+            catch (ArgumentNullException ex)
+            {
+                // Log
+
+            }
+
+            return storeList;
+        }
+
+        /// <summary>
+        /// Returns customer if found or null if no customer matches the parameters.
+        /// </summary>
+        /// <param name="lastName"></param>
+        /// <param name="password"></param>
+        /// <returns></returns>
+        public async Task<Customer> FindCustomerAsync(string lastName, string password)
+        {
+            Customer cust;
+
+            try
+            {
+                cust = _context.Customers.Where(x => x.LastName == lastName).Single();
+                if (cust.Password == password)
+                    return cust;
+                else
+                    return null;
+            }
+            catch (Exception ex)
+            {
+                cust = null;
+            }
+            return cust;
+        }
+        
+        /// <summary>
+        /// Returns all items for a specified store.
+        /// </summary>
+        /// <param name="store"></param>
+        /// <returns></returns>
+        public async Task<List<Item>> ItemListAsync(Store store)
+        {
+            List<Item> storeItems = _context.Items.Where(x => x.Store == store.StoreId).ToList();
+
+            return storeItems;
+        }
+
+        public async Task<bool> ChangeStore(Store store, Customer cust)
+        {
+            bool changed = false;
+            Customer custChange;
+            try
+            {
+                custChange = _context.Customers.Where(x => x.CustomerId == cust.CustomerId).Single();
+                custChange.Store = store.StoreId;
+                _context.SaveChanges();
+                changed = true;
+
+            }
+            catch(Exception ex)
+            {
+                changed = false;
+            }
+
+            return changed;
+        }
     }
 }

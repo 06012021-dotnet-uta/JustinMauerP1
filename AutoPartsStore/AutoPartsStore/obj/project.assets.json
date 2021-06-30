@@ -2003,6 +2003,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
+          "Microsoft.Extensions.Logging": "5.0.0",
           "ModelsLibrary": "1.0.0",
           "RepositoryLayer": "1.0.0"
         },
@@ -2017,7 +2018,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
-          "Microsoft.EntityFrameworkCore.Abstractions": "5.0.7"
+          "Microsoft.EntityFrameworkCore.Abstractions": "5.0.7",
+          "Microsoft.Extensions.Logging": "5.0.0"
         },
         "compile": {
           "bin/placeholder/ModelsLibrary.dll": {}
@@ -2032,6 +2034,7 @@
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "5.0.7",
           "Microsoft.EntityFrameworkCore.SqlServer": "5.0.7",
+          "Microsoft.Extensions.Logging": "5.0.0",
           "ModelsLibrary": "1.0.0"
         },
         "compile": {
@@ -7165,6 +7168,8 @@
     "net5.0": [
       "BusinessLayer >= 1.0.0",
       "Microsoft.EntityFrameworkCore.Design >= 5.0.7",
+      "Microsoft.EntityFrameworkCore.SqlServer >= 5.0.7",
+      "Microsoft.Extensions.Logging >= 5.0.0",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 5.0.2",
       "ModelsLibrary >= 1.0.0"
     ]
@@ -7226,6 +7231,14 @@
             "suppressParent": "All",
             "target": "Package",
             "version": "[5.0.7, )"
+          },
+          "Microsoft.EntityFrameworkCore.SqlServer": {
+            "target": "Package",
+            "version": "[5.0.7, )"
+          },
+          "Microsoft.Extensions.Logging": {
+            "target": "Package",
+            "version": "[5.0.0, )"
           },
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
             "target": "Package",

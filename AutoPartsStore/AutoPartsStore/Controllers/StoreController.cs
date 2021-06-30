@@ -2,6 +2,7 @@
 using BusinessLayer;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using ModelsLibrary;
 using System;
 using System.Collections.Generic;
@@ -67,25 +68,59 @@ namespace AutoPartsStore.Controllers
             
             if(register)
             {
-                Console.WriteLine("In: " + register);
                 ViewBag.Welcome = "Welcoming Example With ViewBag";
-                return View("LoggedInLandingPage");
+                return View("Index");
             }
             else
             {
-                Console.WriteLine("Out: " + register);
                 ViewBag.ErrorText = "Welcome Example With Error";
                 return View("VerifyCreateCustomer");
             }
 
         }
 
-        public async Task<ActionResult> CustomerList()
+        /*[HttpPost]
+        public async Task<ActionResult> Select(Tuple<Store,Customer> tuple)
         {
-            List<Customer> customerList = await _appStore.CustomerListAsync();
+            // display parts for store selected
+           List<ModelsLibrary.Item> itemList = await _appStore.ItemListAsync(tuple.Item1);
 
-            return View(customerList);
+            // change store for customer object
+            bool changeStore = await _appStore.ChangeStore(tuple.Item1, tuple.Item2);
 
+            if(changeStore)
+            {
+                return View("VerifyCreateCustomer", tuple.Item2);
+            }
+            else
+            {
+                return await Login(tuple.Item2.LastName, tuple.Item2.Password);
+            }
+
+            return View();
+        }*/
+
+        [HttpPost]
+        public async Task<ActionResult> Select(int store)
+        {
+
+            Customer cust = new Customer();
+            // display parts for store selected
+            List<ModelsLibrary.Item> itemList = await _appStore.ItemListAsync(store);
+
+            // change store for customer object
+            bool changeStore = await _appStore.ChangeStore(store, cust);
+
+            if (changeStore)
+            {
+                return View("VerifyCreateCustomer", cust);
+            }
+            else
+            {
+                return await Login(cust.LastName, cust.Password);
+            }
+
+            return View();
         }
 
         // POST: Store/Create
@@ -101,6 +136,29 @@ namespace AutoPartsStore.Controllers
             {
                 return View();
             }
+        }
+
+        [HttpPost]
+        public async Task<ActionResult> Login(string LastName, string Password)
+        {
+
+            Customer cust = await _appStore.FindCustomerAsync(LastName, Password);
+            if(cust == null)
+            {
+                return View("../Home/Index");
+            }
+            else
+            {
+                // get list of stores
+                List<Store> storeList = await _appStore.StoreListAsync();
+
+                // return a view to allow customer to select store to shop from
+                var tuple = new Tuple<List<Store>, Customer>(storeList, cust);
+
+                   return View("CustomerLoggedIn", tuple);
+            }
+            /*
+            return View();*/
         }
 
         // GET: Store/Edit/5

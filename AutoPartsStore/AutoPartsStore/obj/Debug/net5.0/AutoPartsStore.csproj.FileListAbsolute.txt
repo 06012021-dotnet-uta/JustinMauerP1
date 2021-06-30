@@ -398,3 +398,4 @@ C:\Users\justi\Desktop\06012021_BashFiles\JustinMauerP1\JustinMauerP1\AutoPartsS
 C:\Users\justi\Desktop\06012021_BashFiles\JustinMauerP1\JustinMauerP1\AutoPartsStore\AutoPartsStore\obj\Debug\net5.0\Razor\Views\Store\VerifyCreateCustomer.cshtml.g.cs
 C:\Users\justi\Desktop\06012021_BashFiles\JustinMauerP1\JustinMauerP1\AutoPartsStore\AutoPartsStore\obj\Debug\net5.0\Razor\Views\Store\LoggedInLandingPage.cshtml.g.cs
 C:\Users\justi\Desktop\06012021_BashFiles\JustinMauerP1\JustinMauerP1\AutoPartsStore\AutoPartsStore\obj\Debug\net5.0\Razor\Views\Store\CustomerList.cshtml.g.cs
+C:\Users\justi\Desktop\06012021_BashFiles\JustinMauerP1\JustinMauerP1\AutoPartsStore\AutoPartsStore\obj\Debug\net5.0\Razor\Views\Store\CustomerLoggedIn.cshtml.g.cs

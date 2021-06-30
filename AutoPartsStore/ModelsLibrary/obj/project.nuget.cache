@@ -1,10 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "VuOXhXGSvbcN2k3wa4EBaLKjvSdBpe2vXJFoL3u+V+Gar41fkg2/NhdS93xMDAj005JWtIzoCcsQHHDqZ6t6gg==",
+  "dgSpecHash": "ONCfzF6gAA1nNuZe5ZJm5Xyj2vxxD2nsJOmTs1Cu/IF/L0TVYjq+Zi9MA6s8F4fvK0NsM7gEYlo4xXATjXeOXg==",
   "success": true,
   "projectFilePath": "C:\\Users\\justi\\Desktop\\06012021_BashFiles\\JustinMauerP1\\JustinMauerP1\\AutoPartsStore\\ModelsLibrary\\ModelsLibrary.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\justi\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\5.0.7\\microsoft.entityframeworkcore.abstractions.5.0.7.nupkg.sha512"
+    "C:\\Users\\justi\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\5.0.7\\microsoft.entityframeworkcore.abstractions.5.0.7.nupkg.sha512",
+    "C:\\Users\\justi\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\5.0.0\\microsoft.extensions.dependencyinjection.5.0.0.nupkg.sha512",
+    "C:\\Users\\justi\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\5.0.0\\microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\justi\\.nuget\\packages\\microsoft.extensions.logging\\5.0.0\\microsoft.extensions.logging.5.0.0.nupkg.sha512",
+    "C:\\Users\\justi\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\5.0.0\\microsoft.extensions.logging.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\justi\\.nuget\\packages\\microsoft.extensions.options\\5.0.0\\microsoft.extensions.options.5.0.0.nupkg.sha512",
+    "C:\\Users\\justi\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512"
   ],
   "logs": []
 }

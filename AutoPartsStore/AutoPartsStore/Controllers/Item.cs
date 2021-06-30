@@ -12,7 +12,7 @@ namespace AutoPartsStore.Controllers
         // GET: Item
         public ActionResult Index()
         {
-            return View();
+            return View("StoreList");
         }
 
         // GET: Item/Details/5

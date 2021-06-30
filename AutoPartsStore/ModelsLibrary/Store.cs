@@ -42,5 +42,10 @@ namespace ModelsLibrary
             set { phoneNumber = value; }
         }
 
+        public Store()
+        {
+
+        }
+
     }
 }

@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v5.0": {
       "BusinessLayer/1.0.0": {
         "dependencies": {
+          "Microsoft.Extensions.Logging": "5.0.0",
           "ModelsLibrary": "1.0.0",
           "RepositoryLayer": "1.0.0"
         },
@@ -1042,7 +1043,8 @@
       },
       "ModelsLibrary/1.0.0": {
         "dependencies": {
-          "Microsoft.EntityFrameworkCore.Abstractions": "5.0.7"
+          "Microsoft.EntityFrameworkCore.Abstractions": "5.0.7",
+          "Microsoft.Extensions.Logging": "5.0.0"
         },
         "runtime": {
           "ModelsLibrary.dll": {}
@@ -1052,6 +1054,7 @@
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "5.0.7",
           "Microsoft.EntityFrameworkCore.SqlServer": "5.0.7",
+          "Microsoft.Extensions.Logging": "5.0.0",
           "ModelsLibrary": "1.0.0"
         },
         "runtime": {

@@ -1,19 +1,32 @@
-﻿@{
+﻿@model ModelsLibrary.Customer
+@{
     ViewData["Title"] = "Home Page";
 
 
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+
+<!-- Form to login with customer credentials-->
+
+<div class="col-md-4">
+    <form asp-action="Login" method="post">
+        <div class="form-group">
+            <label asp-for="LastName">Enter Last Name&nbsp;</label>
+            <input type="text" id="lastName" name="LastName"/>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="Password">Enter Password&nbsp;&nbsp;&nbsp;</label>
+            <input type="password" id="password" name="Password"/>
+        </div>
+        <div>
+            <a class="btn-outline-primary" asp-area="" asp-controller="Store" asp-action="Create">Create an Account&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+            <input type="submit" asp-controller="Store" asp-action="Login"/>
+        </div>
+        <input name="__RequestVerificationToken" type="hidden" value="token_generated_here" />
+    </form>
 </div>
 
-<a class="btn-outline-primary" asp-area="" asp-controller="Store" asp-action="Create">Create an Account</a>
-<button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-        aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-</button>
 
-<button class="btn-outline-primary"><a class="btn" asp-area="" asp-controller="Store" asp-action="Create"></a>Create an account</button>
-<button class="btn-outline-secondary"><a class="btn" asp-area="" asp-controller="Store" asp-action="CustomerList">Login</a></button>
+
+

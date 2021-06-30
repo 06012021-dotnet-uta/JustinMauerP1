@@ -1,4 +1,5 @@
-﻿@model IEnumerable<ModelsLibrary.Store>
+﻿@using ModelsLibrary
+@model Tuple<List<ModelsLibrary.Store>, ModelsLibrary.Customer>
 
 
 
@@ -6,8 +7,13 @@
     ViewData["Title"] = "CustomerLoggedIn";
 }
 
-<h1>Select Store</h1>
+<h1>Welcome @Html.DisplayFor(model => Model.Item2.FirstName)</h1>
 
+<p>
+    <strong>Car Year: </strong> @Html.DisplayFor(model => Model.Item2.CarYear)
+    <strong>Car Make: </strong> @Html.DisplayFor(model => Model.Item2.CarMake)
+    <strong>Car Model: </strong> @Html.DisplayFor(model => Model.Item2.CarModel)
+</p>
 <table class="table">
     <thead>
         <tr>
@@ -29,7 +35,7 @@
         </tr>
     </thead>
     <tbody>
-        @foreach (var item in Model)
+        @foreach (var item in Model.Item1)
         {
             <tr>
                 <td>
@@ -43,14 +49,14 @@
                 </td>
                 <td>
                     @Html.DisplayFor(modelItem => item.PhoneNumber)
-
+                    
                 </td>
                 <td>
                     @*@Html.ActionLink("Select", "Select", @item.StoreId)                 *@
                     <a asp-action="Select" asp-route-id="@item.StoreId">Select</a> |
                     <!--Details for store order history-->
                     <a asp-action="Details" asp-route-id="@item.StoreId">Details</a> |
-
+                    
                 </td>
             </tr>
         }

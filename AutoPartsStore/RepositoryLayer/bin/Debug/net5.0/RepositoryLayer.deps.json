@@ -12,6 +12,7 @@
           "Microsoft.EntityFrameworkCore.Design": "5.0.7",
           "Microsoft.EntityFrameworkCore.SqlServer": "5.0.7",
           "Microsoft.EntityFrameworkCore.Tools": "5.0.7",
+          "Microsoft.Extensions.Logging": "5.0.0",
           "ModelsLibrary": "1.0.0"
         },
         "runtime": {
@@ -1071,7 +1072,8 @@
       },
       "ModelsLibrary/1.0.0": {
         "dependencies": {
-          "Microsoft.EntityFrameworkCore.Abstractions": "5.0.7"
+          "Microsoft.EntityFrameworkCore.Abstractions": "5.0.7",
+          "Microsoft.Extensions.Logging": "5.0.0"
         },
         "runtime": {
           "ModelsLibrary.dll": {}
